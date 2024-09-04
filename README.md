@@ -15,7 +15,9 @@ You can use extention "Live Server" for VSCode.
 You can start it on your local machine.
 
 ## Screenshots of the application
-
+### Start screen
 ![Start screen](https://github.com/Neo0432/ImagePasswordStrength/raw/master/images/startScreen.png)
+### Good password
 ![Good password](https://github.com/Neo0432/ImagePasswordStrength/raw/master/images/goodPassword.png)
+### Bad password
 ![Bad password](https://github.com/Neo0432/ImagePasswordStrength/raw/master/images/badPassword.png)
