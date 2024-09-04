@@ -1,0 +1,10 @@
+{
+  "name": "BlureAuth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Neo <iladorovs@yandex.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}

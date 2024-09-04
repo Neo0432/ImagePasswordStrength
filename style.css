@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+.formInput:focus + label,
+.formInput:not(:placeholder-shown) + label {
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  top: -4px;
+  color: rgb(59 130 246);
+}

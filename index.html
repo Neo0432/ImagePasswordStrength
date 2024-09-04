@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="m-0 bg-black">
+  <main>
+    <div
+      class="absolute flex w-full h-screen overflow-clip -z-20 -left-[20%] bgImg"
+      style="filter: blur(12px)"
+    >
+      <img
+        class="w-full"
+        src="/src/cyber-security-concept-digital-art.jpg"
+        alt=""
+      />
+    </div>
+    <div class="flex w-full justify-end">
+      <section
+        class="flex justify-center items-center w-5/12 h-screen bg-[rgba(16,17,19,1)]"
+      >
+        <!-- bg-[linear-gradient(180deg,_rgba(16,17,19,1)_0%,_rgba(8,10,13,1)_100%)] -->
+        <form
+          action=""
+          class="flex flex-col items-center gap-2 text-white text-center p-6"
+        >
+          <h1 class="w-full text-3xl">Image Password Strength</h1>
+          <p class="w-full text-base text-gray-400 max-w-96">
+            The stronger your password is, the more secure your image will be.
+          </p>
+          <div class="flex flex-col gap-3 items-end">
+            <div class="relative w-fit">
+              <input
+                type="text"
+                name="userlogin"
+                id=""
+                placeholder=" "
+                autocomplete="off"
+                class="bg-[#00000005] border-2 border-gray-600 rounded-md outline-none min-w-64 px-4 py-3 text-base text-white transition-all focus:border-blue-500 placeholder:text-transparent formInput"
+              />
+              <label
+                for="userlogin"
+                class="absolute z-10 left-3 px-1 top-[calc(50%-1rem)] bg-[rgba(16,17,19,1)] text-lg text-white transition-all inputLabel"
+                >Username</label
+              >
+            </div>
+            <div class="relative w-fit">
+              <input
+                type="password"
+                name="password"
+                id="inputPassword"
+                placeholder=" "
+                autocomplete="off"
+                class="bg-[#00000005] border-2 border-gray-600 rounded-md outline-none min-w-64 px-4 py-3 text-base text-white transition-all focus:border-blue-400 placeholder:text-transparent formInput"
+              />
+              <label
+                for="password"
+                class="absolute z-10 left-3 px-1 top-[calc(50%-1rem)] bg-[rgba(16,17,19,1)] text-lg text-white transition-all inputLabel"
+                >Password</label
+              >
+            </div>
+            <button
+              type="submit"
+              class="flex w-1/2 justify-center bg-cyan-700 py-2 text-lg rounded-md transition-all duration-300 hover:bg-cyan-900 hover:rounded-xl active:bg-cyan-600 active:scale-95"
+            >
+              Sign in
+            </button>
+          </div>
+        </form>
+      </section>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
